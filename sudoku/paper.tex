@@ -112,7 +112,8 @@ outperforming CP-SAT, while ILP is $3$--$5\times$ slower.
 On $16\!\times\!16$ grids, SAT with Product encoding ($\approx\!50$\,ms)
 rivals CP-SAT ($\approx\!58$\,ms) and is twice as fast as Pairwise SAT.
 All 300+ experiment runs are verified correct.
-Source code and data are publicly available.
+Source code and data are publicly available at
+\url{https://github.com/thitbokho123/Sudoku}.
 \end{abstract}
 
 \begin{keyword}
@@ -648,6 +649,20 @@ $25\!\times\!25$ grid sizes.
 \noindent\textbf{Future work}: extending to graph colouring and $n$-Queens;
 evaluating parallel SAT (Painless, HordeSAT); MaxSAT for minimum-clue
 variants; hybrid Commander--Sequential encodings.
+
+
+%%===========================================================
+%% Data Availability
+%%===========================================================
+\section*{Data Availability}
+
+The source code, benchmark puzzle instances, experimental scripts, and
+all raw results reported in this paper are openly available on GitHub at:
+\begin{center}
+  \url{https://github.com/thitbokho123/Sudoku}
+\end{center}
+The repository includes Python implementations of all five AMO encodings,
+the CP and ILP solvers, benchmark runners, and the figure-generation scripts.
 
 %%===========================================================
 %% References
